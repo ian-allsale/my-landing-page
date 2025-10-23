@@ -36,7 +36,7 @@ const FeaturesSection = () => {
           <div 
             key={feature.id}
             className="relative rounded-2xl ring-1 ring-white/10 bg-neutral-900/60 sm:p-8 pt-6 pr-6 pb-6 pl-6 border-gradient before:rounded-2xl animate-on-scroll hover:ring-blue-400/30 transition-all duration-300"
-            style={{ animation: `fadeSlideIn 0.6s ease-out ${0.1 + (index * 0.05)}s both` }}
+            style={{ animation: `fadeSlideIn 0.6s ease-out ${0.1 + (index * 0.08)}s both` }}
           >
             <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-white/10 to-transparent rounded-full pointer-events-none"></div>
             

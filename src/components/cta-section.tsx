@@ -14,15 +14,15 @@ const CTASection = () => {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
         
         <div className="relative text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl tracking-tight font-semibold animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.05s both' }}>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl tracking-tight font-semibold animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.1s both' }}>
             {ALLSALE_CONTENT.cta.title}
           </h2>
-          <p className="text-base sm:text-lg text-neutral-300 mt-6 animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.1s both' }}>
+          <p className="text-base sm:text-lg text-neutral-300 mt-6 animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.15s both' }}>
             {ALLSALE_CONTENT.cta.description}
           </p>
           
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.15s both' }}>
-            <button className="group inline-flex lg:h-12 leading-none -tracking-[0.02em] outline outline-1 outline-white/10 hover:outline-white/20 transition-all duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-blue-400/50 text-base font-semibold text-white h-11 w-full sm:w-auto rounded-full pr-8 pl-8 relative items-center justify-center border-gradient before:rounded-full animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}>
+          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}>
+            <button className="group inline-flex lg:h-12 leading-none -tracking-[0.02em] outline outline-1 outline-white/10 hover:outline-white/20 transition-all duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-blue-400/50 text-base font-semibold text-white h-11 w-full sm:w-auto rounded-full pr-8 pl-8 relative items-center justify-center border-gradient before:rounded-full animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.25s both' }}>
               <span className="absolute -inset-px h-full w-full overflow-hidden rounded-full" aria-hidden="true">
                 <span 
                   className="absolute inset-0 rounded-full" 

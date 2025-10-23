@@ -9,7 +9,7 @@ const KeyMetricsSection = () => {
       <div className="text-center mb-12">
         <h3 
           className="text-xs font-semibold tracking-wider text-neutral-400 uppercase mb-8 animate-on-scroll"
-          style={{ animation: 'fadeSlideIn 0.6s ease-out 0.05s both' }}
+          style={{ animation: 'fadeSlideIn 0.6s ease-out 0.1s both' }}
         >
           {ALLSALE_CONTENT.keyMetrics.title}
         </h3>
@@ -19,7 +19,7 @@ const KeyMetricsSection = () => {
             <div
               key={company.name}
               className="grayscale hover:grayscale-0 transition-all duration-200 opacity-60 hover:opacity-100 animate-on-scroll"
-              style={{ animation: `fadeSlideIn 0.6s ease-out ${0.1 + (index * 0.02)}s both` }}
+              style={{ animation: `fadeSlideIn 0.6s ease-out ${0.15 + (index * 0.03)}s both` }}
             >
               <div className="text-2xl font-bold text-neutral-300 hover:text-white transition-colors">
                 {company.name}
@@ -35,7 +35,7 @@ const KeyMetricsSection = () => {
           <div 
             key={index}
             className="text-center animate-on-scroll"
-            style={{ animation: `fadeSlideIn 0.6s ease-out ${0.2 + (index * 0.05)}s both` }}
+            style={{ animation: `fadeSlideIn 0.6s ease-out ${0.3 + (index * 0.08)}s both` }}
           >
             <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
               {metric.value}

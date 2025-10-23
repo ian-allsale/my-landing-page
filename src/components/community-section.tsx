@@ -26,16 +26,16 @@ const CommunitySection = () => {
   return (
     <section className="sm:px-6 lg:px-8 sm:pb-20 max-w-7xl mx-auto pt-16 px-4 pb-20" id="customers">
       <div className="text-center max-w-4xl mx-auto">
-        <span className="inline-flex items-center gap-2 sm:px-4 sm:py-2 animate-on-scroll text-xs font-medium text-blue-300 bg-blue-500/15 border-blue-400/30 border rounded-full pt-1.5 pr-3 pb-1.5 pl-3" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.05s both' }}>
+        <span className="inline-flex items-center gap-2 sm:px-4 sm:py-2 animate-on-scroll text-xs font-medium text-blue-300 bg-blue-500/15 border-blue-400/30 border rounded-full pt-1.5 pr-3 pb-1.5 pl-3" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.1s both' }}>
           {ALLSALE_CONTENT.community.badge}
         </span>
-        <h2 className="sm:mt-6 sm:text-4xl lg:text-5xl xl:text-6xl animate-on-scroll text-3xl font-semibold tracking-tight mt-6" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.1s both' }}>
+        <h2 className="sm:mt-6 sm:text-4xl lg:text-5xl xl:text-6xl animate-on-scroll text-3xl font-semibold tracking-tight mt-6" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.15s both' }}>
           {ALLSALE_CONTENT.community.title}
         </h2>
-        <p className="sm:mt-4 sm:text-base animate-on-scroll text-sm font-normal text-neutral-300 mt-3" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.15s both' }}>
+        <p className="sm:mt-4 sm:text-base animate-on-scroll text-sm font-normal text-neutral-300 mt-3" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}>
           {ALLSALE_CONTENT.community.description}
         </p>
-        <div className="sm:mt-6 animate-on-scroll mt-6" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}>
+        <div className="sm:mt-6 animate-on-scroll mt-6" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.25s both' }}>
           <a 
             href="#" 
             className="inline-flex items-center gap-2 rounded-full bg-blue-500 px-4 sm:px-6 py-2 sm:py-3 text-sm font-semibold text-white shadow-lg hover:bg-blue-400 transition-colors"
@@ -63,7 +63,7 @@ const CommunitySection = () => {
               willChange: 'transform'
             }}
           >
-                  <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 sm:gap-4 flex-shrink-0 sm:pr-4 animate-on-scroll pr-4 gap-x-2 gap-y-2" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 sm:gap-4 flex-shrink-0 sm:pr-4 animate-on-scroll pr-4 gap-x-2 gap-y-2" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.3s both' }}>
                     {communityImages.map((src, index) => (
                       <div key={index} className="rounded-xl sm:rounded-2xl overflow-hidden ring-1 ring-white/10 bg-white/5">
                         <img

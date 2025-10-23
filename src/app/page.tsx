@@ -114,7 +114,7 @@ export default function Home() {
                   {/* CTA - Moved above images */}
                   <div 
                     className="mt-8 flex items-center justify-center"
-                    style={{ animation: 'fadeSlideIn 0.6s ease-out 0.2s both' }}
+                    style={{ animation: 'fadeSlideIn 0.6s ease-out 0.25s both' }}
                   >
                     <button className="group inline-flex lg:h-11 leading-none -tracking-[0.02em] outline outline-1 outline-white/10 hover:outline-white/20 transition-all duration-500 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-blue-400/50 text-base font-semibold text-white h-10 max-w-[300px] rounded-full pr-6 pl-6 relative items-center justify-center border-gradient before:rounded-full">
                       {/* Dark gradient background */}
@@ -197,7 +197,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <div className="grid grid-cols-6 sm:gap-4 gap-x-3 gap-y-3" id="card-grid-container">
                     {/* Card 1 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.3s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.35s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform -rotate-8 translate-y-3 sm:translate-y-5 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/3d5923b9-321c-4e35-ac04-0d7fb5c483b1_320w.webp" alt="Artwork card" className="w-full h-full object-cover" />
@@ -205,7 +205,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Card 2 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.35s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.4s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform -rotate-2 translate-y-5 sm:translate-y-7 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/c5fb864f-cf3d-4942-9629-249d52477022_800w.webp" alt="3D render card" className="w-full h-full object-cover" />
@@ -213,7 +213,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Card 3 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.4s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.45s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform rotate-3 translate-y-2 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/58cdb928-9435-44fa-b69e-7acebfffa0f7_800w.webp" alt="Minimal shapes card" className="w-full h-full object-cover" />
@@ -221,7 +221,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Card 4 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.45s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.5s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform rotate-0 -translate-y-1 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/3c4f1dea-f838-465a-bfd2-8fbbf334a6bc_320w.webp" alt="Abstract red card" className="w-full h-full object-cover" />
@@ -229,7 +229,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Card 5 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.5s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.55s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform -rotate-2 translate-y-3 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/773cd99d-a5ac-4c9a-b312-b9b3e3a42002_800w.webp" alt="Mountains card" className="w-full h-full object-cover" />
@@ -237,7 +237,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Card 6 */}
-                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.55s both' }}>
+                    <div className="animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-out 0.6s both' }}>
                       <div className="card-item col-span-2 sm:col-span-1 self-end transform rotate-6 translate-y-6 transition-all duration-500 ease-out cursor-pointer hover:scale-105">
                         <div className="aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-black/10 shadow-lg border-gradient before:rounded-2xl transition-shadow duration-300 hover:shadow-2xl">
                           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/97837bc2-4cb4-44a3-8f15-444c524bd4c0_800w.webp" alt="Green minimal card" className="w-full h-full object-cover" />
